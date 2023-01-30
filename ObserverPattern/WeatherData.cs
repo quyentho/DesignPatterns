@@ -38,7 +38,7 @@ public class WeatherData: ISubject
         }
     }
 
-    public void RemoveObserver(IObserver IObserver)
+    public void UnRegisterObserver(IObserver IObserver)
     {
         _observers.Remove(IObserver);
     }

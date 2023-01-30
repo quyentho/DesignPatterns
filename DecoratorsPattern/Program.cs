@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using DecoratorsPattern.Beverages;
+using DecoratorsPattern.Sizes;
 using DecoratorsPattern.Toppings;
 
 IBeverage coffee = new Coffee();
@@ -14,6 +15,8 @@ IBeverage blackTea = new BlackTea();
 blackTea = new Berry(blackTea);
 blackTea = new Berry(blackTea);
 blackTea = new Mocha(blackTea);
+blackTea = new Large(blackTea);
+
 
 Console.WriteLine(blackTea.GetDescription());
 Console.WriteLine($"Price: {blackTea.Cost().ToString()}");

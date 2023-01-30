@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{D8A6C0D1-38A9-44CD-94B5-2D2D581B6234}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{D8A6C0D1-38A9-44CD-94B5-2D2D581B6234}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorsPattern", "DecoratorsPattern\DecoratorsPattern.csproj", "{4EF3222F-3BAC-46D8-839E-CE26D73842FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorsPattern", "DecoratorsPattern\DecoratorsPattern.csproj", "{4EF3222F-3BAC-46D8-839E-CE26D73842FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFactoryPattern", "SimpleFactoryPattern\SimpleFactoryPattern.csproj", "{E8C9EAFF-80AC-4379-9C3C-DD9F16871342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{DF4DD469-23D2-4740-85B0-B3DB259654DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{4EF3222F-3BAC-46D8-839E-CE26D73842FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EF3222F-3BAC-46D8-839E-CE26D73842FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EF3222F-3BAC-46D8-839E-CE26D73842FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C9EAFF-80AC-4379-9C3C-DD9F16871342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C9EAFF-80AC-4379-9C3C-DD9F16871342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C9EAFF-80AC-4379-9C3C-DD9F16871342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C9EAFF-80AC-4379-9C3C-DD9F16871342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4DD469-23D2-4740-85B0-B3DB259654DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4DD469-23D2-4740-85B0-B3DB259654DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4DD469-23D2-4740-85B0-B3DB259654DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4DD469-23D2-4740-85B0-B3DB259654DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

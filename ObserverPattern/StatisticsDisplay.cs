@@ -8,10 +8,6 @@ namespace ObserverPattern
 {
     public class StatisticsDisplay: Display
     {
-        public StatisticsDisplay(ISubject weatherData) : base(weatherData)
-        {
-        }
-
         public override void DisplayData()
         {
 

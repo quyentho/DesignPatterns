@@ -8,7 +8,7 @@ namespace ObserverPattern
 {
     public class ForecastDisplay: Display
     {
-        public ForecastDisplay(ISubject weatherData) : base(weatherData)
+        public ForecastDisplay()
         {
         }
 

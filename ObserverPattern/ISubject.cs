@@ -4,5 +4,5 @@
 public interface ISubject
 {
     void RegisterObserver(IObserver observer);
-    void RemoveObserver(IObserver IObserver);
+    void UnRegisterObserver(IObserver IObserver);
 }

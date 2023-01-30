@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DecoratorsPattern.Toppings
 {
-    public class Berry : Topping
+    public class Berry : BeverageDecorator
     {
         private readonly IBeverage _wrappedBeverage;
 

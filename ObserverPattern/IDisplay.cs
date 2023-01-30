@@ -3,8 +3,6 @@
 public interface IDisplay: IObserver
 {
     void DisplayData();
-    void UnSubcribe();
-    void Subcribe();
 }
 
 public interface IObserver

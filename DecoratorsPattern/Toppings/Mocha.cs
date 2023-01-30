@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DecoratorsPattern.Toppings
 {
-    public class Mocha : Topping
+    public class Mocha : BeverageDecorator
     {
         private readonly IBeverage _wrappedBeverage;
 

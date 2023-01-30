@@ -5,24 +5,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DecoratorsPattern.Toppings
+namespace DecoratorsPattern.Sizes
 {
-    public class Bubble : BeverageDecorator
+    public class Large : BeverageDecorator
     {
         private readonly IBeverage _wrappedBeverage;
 
-        public Bubble(IBeverage beverage) : base(beverage)
+        public Large(IBeverage beverage) : base(beverage)
         {
             this._wrappedBeverage = beverage;
         }
 
         public override string GetDescription()
         {
-            return _wrappedBeverage.GetDescription() +  " + bubble";
+            return _wrappedBeverage.GetDescription() + " Size: Large";
         }
+
         public override int Cost()
         {
-            return 10 + _wrappedBeverage.Cost();
+            return _wrappedBeverage.Cost() + 20;
         }
     }
 }
